@@ -32,6 +32,8 @@ header {
 h1 {
     position: relative;
     text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
 
 .couple-main-pic {
@@ -43,7 +45,7 @@ h1 {
 .couple-main-pic img {
     height: 600px;
     float: left;
-    border-radius: 30px;
+    border-radius: 0 40px 0 40px;
 }
 
 .info-rectangle {
@@ -61,6 +63,7 @@ h1 {
 
 .info-rectangle p {
     font-size: 40px;
+    font-family: 'Caveat', cursive;
 }
 
 .language-toggle {
@@ -75,8 +78,8 @@ h1 {
 
 .nav-menu {
     position: absolute;
-    top: 60px;
-    right: 370px;
+    top: 2em;
+    right: 20em;
 }
 
 .nav-list {
@@ -90,6 +93,9 @@ li {
 
 li button a {
     text-decoration: none;
+    appearance: none;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
 }
 
 .menu {
