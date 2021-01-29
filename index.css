@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    height: auto;
+
+}
+
+.container::before {
+    content: "";
+    background-image: url(/Images/eucalyptus-small-bouquet-flowers.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.40;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+.couple-main-pic {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.couple-main-pic img {
+    height: 600px;
+    float: left;
+    border-radius: 30px;
+}
+
+.info-rectangle {
+    display: flex;
+    background-color: lightblue;
+    height: 10em;
+    width: 16em;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 306.7px;
+    border-radius: 10px;
+}
+
+.info-rectangle p {
+    font-size: 40px;
+}
+
+.language-toggle {
+    position: relative;
+}
+
+.language-toggle button {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 60px;
+    right: 370px;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    margin: 4em 0;
+}
+
+li button a {
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
