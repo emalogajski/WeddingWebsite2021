@@ -16,7 +16,7 @@ body {
     content: "";
     background-image: url(/Images/eucalyptus-small-bouquet-flowers.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
@@ -33,7 +33,15 @@ h1 {
     position: relative;
     text-align: center;
     font-family: 'Caveat', cursive;
-    font-size: 40px;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .couple-main-pic {
@@ -45,19 +53,19 @@ h1 {
 .couple-main-pic img {
     height: 600px;
     float: left;
-    border-radius: 0 40px 0 40px;
+    border-radius: 40px;
 }
 
 .info-rectangle {
     display: flex;
-    background-color: lightblue;
+    background-color: rgba(80, 119, 115, 0.938);
     height: 10em;
     width: 16em;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 400px;
-    left: 306.7px;
+    top: 499.4px;
+    left: 100.3px;
     border-radius: 10px;
 }
 
@@ -77,9 +85,7 @@ h1 {
 }
 
 .nav-menu {
-    position: absolute;
-    top: 2em;
-    right: 20em;
+    position: relative;
 }
 
 .nav-list {
@@ -91,8 +97,19 @@ li {
     margin: 4em 0;
 }
 
+li button {
+    background-color: rgba(80, 119, 115, 0.938);
+    border-radius: 5px;
+}
+
+li button:hover {
+    background-color: rgba(80, 119, 115, 0.521);
+
+}
+
 li button a {
     text-decoration: none;
+    color: black;
     appearance: none;
     font-size: 24px;
     font-family: 'Caveat', cursive;
