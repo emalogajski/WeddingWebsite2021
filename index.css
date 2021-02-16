@@ -90,6 +90,29 @@ span {
     position: fixed;
     top: 1vh;
     right: 1vw;
+    background-color: rgba(245, 245, 245, 0.822);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;
+    color: rgba(245, 245, 245, 0.822);  
+    background-color: transparent;
+    padding: 4px 10px;
+    display: flex;
+    width: 86px;
+    align-items: center;
+}
+
+.language-toggle button img {
+    width: 36px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.language-toggle button:hover {
+    border: 2px solid rgba(245, 245, 245, 0.822);
+    font-size: 20px;
 }
 
 .nav-menu {
