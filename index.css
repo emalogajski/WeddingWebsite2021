@@ -50,7 +50,7 @@ span {
     color: rgb(241, 212, 114);
 }
 
-.main-section {
+.front-page {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -63,21 +63,12 @@ span {
 
 .couple-main-pic img {
     position: relative;
+    box-shadow: -18px 20px 10px rgb(240 217 133);
     height: 600px;
     float: left;
     border-radius: 40px;
     top: 10px;
     left: 10px;
-    box-shadow: -11px -6px 10px rgb(53, 63, 41);
-}
-
-.deco-rectangle {
-    height: 600px;
-    width: 400px;
-    position: absolute;
-    background-color: rgb(240, 217, 133);
-    box-shadow: -13px -12px 10px rgb(240 217 133);
-    border-radius: 40px;
 }
 
 .language-toggle {
@@ -86,8 +77,8 @@ span {
 
 .language-toggle button {
     position: fixed;
-    top: 1vh;
-    right: 1vw;
+    top: 10px;
+    right: 10px;
     background-color: rgba(245, 245, 245, 0.822);
     border: none;
     cursor: pointer;
@@ -110,7 +101,7 @@ span {
 
 .language-toggle button:hover {
     border: 2px solid rgba(245, 245, 245, 0.822);
-    font-size: 20px;
+    padding: 2px 8px;
 }
 
 .nav-menu {
@@ -134,19 +125,19 @@ li {
     padding: 0 25px;
 }
 
-li button {
+li a {
     background-color: transparent;  
     border: none;
 }
 
-li button a:hover {
+li a:hover {
     border: 2px solid rgb(72, 99, 96);
     padding: 18px 8px;
 }
 
-li button a {
+li a {
     text-decoration: none;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Caveat', cursive;
     color: rgb(72, 99, 96);  
     background-color: transparent;
@@ -156,4 +147,35 @@ li button a {
 
 .menu {
     display: none;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 6vw 6vw 6vw 10vw;
+}
+
+.first-location-picture {
+    position: relative;
+    box-shadow: 20px 0px 10px rgb(240 217 133);
+}
+
+.first-location-picture img {
+    width: 600px;    
+}
+
+.first-location-picture-explanation {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-left: 8px solid;
+    border-color: rgb(248, 218, 108);
+    position: relative;
+}
+
+.first-location-picture-explanation p {
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    color: rgb(72, 99, 96);
 }
