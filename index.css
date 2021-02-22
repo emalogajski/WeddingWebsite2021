@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Marcellus', serif;
 }
 
 body {
@@ -12,23 +13,6 @@ body {
 
 }
 
-.container::before {
-    content: "";
-    background-image: url(/Images/eucalyptus-small-bouquet-flowers.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.40;
-}
-
-header {
-    width: 100%;
-}
-
 span {
     font-size: 40px;
     margin: 0 40px;
@@ -38,37 +22,61 @@ span {
     font-size: 50px;
 }
 
-.title {
-    position: relative;
-    text-align: center;
-    font-family: 'Caveat', cursive;
-    font-size: 80px;
-    margin: 0;
-    padding: 10px 0;
-    background-color:rgba(80, 119, 115, 0.767);
-    line-height: 60px;
-    color: rgb(241, 212, 114);
-}
-
 .front-page {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 30px auto;
-}
-
-.couple-main-pic {
     position: relative;
 }
 
-.couple-main-pic img {
+.title-part1 {
+    position: absolute;
+    color: rgb(241, 228, 200);
+    font-size: 40px;
+    left: 20px;
+    top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(241, 228, 200);
+}
+
+.title-part2 {
+    position: absolute;
+    color: rgb(241, 228, 200);
+    font-size: 40px;
+    left: 300px;
+    top: 90px;
+}
+
+span {
+    font-style: italic;
+    margin: 0;
+    border-bottom: 2px solid rgb(241, 228, 200);
+}
+
+.info {
+    border: 5px solid;
+    border-image: url('Images/eucalyptus-leaf-pile.jpg') 30 / 19px round;
+}
+
+.front-page img {
+    height: 800px;
+}
+
+.front-page-right {
     position: relative;
-    box-shadow: -18px 20px 10px rgb(240 217 133);
-    height: 600px;
-    float: left;
-    border-radius: 40px;
-    top: 10px;
-    left: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+    background-color:  rgba(248, 219, 157, 0.726);   
+}
+
+.eucalyptus-decoration {
+    position: absolute;
+    top: 600px;
+    opacity: 0.5;
+}
+
+.eucalyptus-decoration img {
+    width: 100%;
+    height: auto;
+    border-top: 4px double rgb(72, 99, 96);
 }
 
 .language-toggle {
@@ -142,49 +150,8 @@ li a {
     color: rgb(72, 99, 96);  
     background-color: transparent;
     padding: 4px 10px;
-
 }
 
 .menu {
     display: none;
-}
-
-.location {
-    display: flex;
-    align-items: center;
-    margin: 6vw 6vw 6vw 10vw;
-}
-
-.first-location-picture {
-    position: relative;
-    box-shadow: 20px 0px 10px rgb(240 217 133);
-}
-
-.first-location-picture img {
-    width: 600px;    
-}
-
-.first-location-picture-explanation {
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    position: relative;
-}
-
-.first-location-picture-explanation a {
-    font-size: 36px;
-    font-family: 'Caveat', cursive;
-    color: rgb(72, 99, 96);
-    margin: 30px 0 30px 50px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.first-location-picture-explanation a:hover {
-    border: 2px solid rgb(72, 99, 96);
-    background-color: rgba(245, 245, 245, 0.822);
-    width: 260px;
-    height: 60px;
-    cursor: pointer;
-    padding: 5px 0px 0px 8px;
 }
