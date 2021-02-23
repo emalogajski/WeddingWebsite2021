@@ -104,6 +104,7 @@ body {
 
 .language-toggle {
     position: relative;
+    display: none;
 }
 
 .language-toggle button {
