@@ -147,7 +147,6 @@ li {
 }
 
 li a:hover {
-    /* border-top: 2px solid rgb(126, 113, 40); */
     border-bottom: 2px solid rgb(126, 113, 40);
 }
 
