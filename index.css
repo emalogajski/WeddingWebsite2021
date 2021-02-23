@@ -1,86 +1,73 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    position: relative;
-    height: auto;
-
+  position: relative;
+  height: auto;
 }
 
 .date {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .front-page {
-    display: flex;
-    position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  align-items: center;
+  background-color: rgb(235 180 31 / 12%);
 }
 
 .couple-pic-container {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
-.title-part1 {
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    position: absolute;
-    color: rgb(243, 208, 131);
-    font-size: 50px;
-    left: 80px;
-    top: 55px;
-    border-bottom: 3px solid rgb(243, 208, 131);
-    border-top: 3px solid rgb(243, 208, 131);
-    letter-spacing: 6px;
+.title-names {
+  font-family: 'Aref Ruqaa', serif;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgb(126, 90, 13);
+  font-size: 50px;
+  border-bottom: 3px solid rgb(126, 90, 13);
+  letter-spacing: 6px;
 }
 
 .title-married {
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    color: rgb(52, 60, 37);
-    font-size: 40px;
-    bottom: 150px;
-    background: rgb(248, 219, 157, 53%);
+  /* font-family: 'Aref Ruqaa', serif; */
+
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70px;
+  color: rgb(68, 48, 6);
+  font-size: 40px;
+  bottom: 150px;
+  background: rgba(235, 215, 160, 0.692);
 }
 
 .title-married p {
-    margin: 2px;
-    font-size: 34px;
+  margin: 2px;
+  font-size: 34px;
 }
 
 .title-2 {
-    position: absolute;
-    top: 130px;
-    left: 80px;
-    color: rgb(159, 170, 136);
-    font-size: 40px;
-}
-
-.date-title {
-    display: flex;
-    justify-content: center;
-}
-
-.date-title p {
-    font-family: 'Aref Ruqaa', serif;
-    font-size: 24px;
-    color: rgb(55, 56, 54);
-    margin: 0;
-    border-bottom: 3px solid rgb(55, 56, 54);
-    border-top: 3px solid rgb(55, 56, 54);
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  color: rgb(159, 170, 136);
+  font-size: 40px;
 }
 
 .heart {
@@ -100,8 +87,9 @@ body {
     border-image: url('Images/more-fancy.png') 34 round;
 }
 
-.front-page img {
-    height: 800px;
+.couple-pic-container img {
+    height: 700px;
+    border: 6px double rgb(233, 185, 83);
 }
 
 .front-page-right {
@@ -148,8 +136,9 @@ body {
 }
 
 .nav-list {
-    list-style-type: none;
-    padding-left: 10px;
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
 }
 
 li {
@@ -157,15 +146,15 @@ li {
 }
 
 li a:hover {
-    border-top: 2px solid rgb(72, 99, 96);
-    border-bottom: 2px solid rgb(72, 99, 96);
+    /* border-top: 2px solid rgb(126, 113, 40); */
+    border-bottom: 2px solid rgb(126, 113, 40);
 }
 
 li a {
     font-family: 'Aref Ruqaa', serif;
     text-decoration: none;
-    font-size: 20px;
-    color: rgb(55, 56, 54); 
+    font-size: 18px;
+    color: rgb(126, 113, 40);
     background-color: transparent;
 }
 
