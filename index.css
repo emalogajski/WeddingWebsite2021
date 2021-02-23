@@ -58,6 +58,7 @@ body {
 
 .title-married p {
     margin: 2px;
+    font-size: 34px;
 }
 
 .title-2 {
@@ -83,7 +84,8 @@ body {
 }
 
 .heart {
-    margin-right: 10px;
+    display: inline;
+    height: 1px;
 }
 
 .married {
@@ -109,7 +111,6 @@ body {
     display: flex;
     overflow: hidden;
     flex-grow: 1;
-    /* background-color:  rgba(248, 219, 157, 0.726);    */
     background-color:  rgb(255, 255, 255);   
 }
 
@@ -144,10 +145,6 @@ body {
 .language-toggle button:hover {
     border: 2px solid rgba(245, 245, 245, 0.822);
     padding: 2px 8px;
-}
-
-.nav-menu {
-
 }
 
 .nav-list {
