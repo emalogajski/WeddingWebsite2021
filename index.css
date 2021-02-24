@@ -11,22 +11,11 @@ body {
   height: auto;
 }
 
-.date {
-  font-size: 50px;
-}
-
 .front-page {
   display: flex;
   flex-flow: column wrap;
-  position: relative;
   align-items: center;
   background-color: rgb(235 180 31 / 12%);
-}
-
-.couple-pic-container {
-  display: flex;
-  position: relative;
-  justify-content: center;
 }
 
 .title-names {
@@ -39,12 +28,45 @@ body {
   letter-spacing: 6px;
 }
 
-.title-married {
-  /* font-family: 'Aref Ruqaa', serif; */
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
 
-  font-family: 'Heebo', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
+li {
+    padding: 10px 25px;
+}
+
+li a {
+  font-family: 'Aref Ruqaa', serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(126, 113, 40);
+  background-color: transparent;
+}
+
+li a:visited {
+  color: rgb(190, 171, 58);
+}
+
+li a:hover {
+    border-bottom: 2px solid rgb(126, 113, 40);
+}
+
+.couple-pic-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.couple-pic-container img {
+  height: 700px;
+  border: 6px double rgb(233, 185, 83);
+}
+
+.title-married {
+  font-family: 'Aref Ruqaa', serif;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -55,24 +77,13 @@ body {
   font-size: 40px;
   bottom: 150px;
   background: rgba(235, 215, 160, 0.692);
+  padding-bottom: 8px;
 }
 
 .title-married p {
   margin: 2px;
   font-size: 34px;
-}
-
-.title-2 {
-  position: absolute;
-  top: 130px;
-  left: 80px;
-  color: rgb(159, 170, 136);
-  font-size: 40px;
-}
-
-.heart {
-    display: inline;
-    height: 1px;
+  font-weight: 700;
 }
 
 .married {
@@ -81,25 +92,11 @@ body {
     font-style: italic;
 }
 
-.info {
-    padding: 10px 20px;
-    border: 30px solid;
-    border-image: url('Images/more-fancy.png') 34 round;
-}
-
-.couple-pic-container img {
-    height: 700px;
-    border: 6px double rgb(233, 185, 83);
-}
-
-.front-page-right {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-    flex-grow: 1;
-    background-color:  rgb(255, 255, 255);   
+.heart {
+    display: inline;
+    height: 1px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .language-toggle {
@@ -134,28 +131,6 @@ body {
 .language-toggle button:hover {
     border: 2px solid rgba(245, 245, 245, 0.822);
     padding: 2px 8px;
-}
-
-.nav-list {
-  display: flex;
-  list-style-type: none;
-  padding-left: 10px;
-}
-
-li {
-    padding: 10px 25px;
-}
-
-li a:hover {
-    border-bottom: 2px solid rgb(126, 113, 40);
-}
-
-li a {
-    font-family: 'Aref Ruqaa', serif;
-    text-decoration: none;
-    font-size: 18px;
-    color: rgb(126, 113, 40);
-    background-color: transparent;
 }
 
 .menu {
