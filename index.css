@@ -46,12 +46,13 @@ li a {
   background-color: transparent;
 }
 
-li a:visited {
-  color: rgb(190, 171, 58);
-}
 
 li a:hover {
-    border-bottom: 2px solid rgb(126, 113, 40);
+  border-bottom: 2px solid rgb(126, 113, 40);
+}
+
+li a:active {
+  border-bottom: 2px solid rgb(126, 113, 40);
 }
 
 .couple-pic-container {
@@ -97,6 +98,7 @@ li a:hover {
     height: 1px;
     margin-left: 12px;
     margin-right: 12px;
+    color: rgb(68, 48, 6);
 }
 
 .language-toggle {
