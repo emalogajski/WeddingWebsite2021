@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-color: rgb(235 180 31 / 12%);
+  background-color: rgb(235, 180, 31, 0.12);
 }
 
 .title-names {
@@ -42,17 +42,21 @@ li a {
   font-family: 'Aref Ruqaa', serif;
   text-decoration: none;
   font-size: 18px;
-  color: rgb(126, 113, 40);
+  color: rgb(126, 90, 13);
   background-color: transparent;
 }
 
-
 li a:hover {
-  border-bottom: 2px solid rgb(126, 113, 40);
+  border-bottom: 2px solid rgb(126, 90, 13);
 }
 
 li a:active {
-  border-bottom: 2px solid rgb(126, 113, 40);
+  color: rgb(233, 185, 83);
+}
+
+li a:visited {
+  color: rgb(233, 185, 83);
+  border-bottom: 2px solid rgb(126, 90, 13);
 }
 
 .couple-pic-container {
@@ -126,13 +130,61 @@ li a:active {
   top: 0;
 }
 
-/* .heart {
-    display: inline;
-    height: 1px;
-    margin-left: 12px;
-    margin-right: 12px;
-    color: rgb(68, 48, 6);
-} */
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+  position: relative;
+
+}
+
+.location-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.location-section img{
+  width: 400px;
+  height: 300px;
+  border: 6px double rgb(233, 185, 83);
+  opacity: 50%;
+}
+
+.location-section img:hover{
+  opacity: 1;
+}
+
+.location-blurb {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 25px;
+  background-color: rgb(194, 157, 84);
+  color: rgb(68, 48, 6);
+}
+
+.location-blurb a {
+  text-decoration: none;
+  color: rgb(68, 48, 6);
+}
+
+.location-blurb a:visited {
+  text-decoration: none;
+  color: rgb(99, 71, 10);
+}
+
+.location-blurb a:hover {
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 2px solid rgb(68, 48, 6);
+}
+
 
 .language-toggle {
     position: relative;
