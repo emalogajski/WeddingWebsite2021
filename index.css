@@ -179,15 +179,15 @@ li a:visited {
 .location-blurb a:hover {
   text-decoration: none;
   font-style: italic;
-  color: gb(44, 31, 3);
+  color: rgb(44, 31, 3);
 }
 
-.schedule, .dress-code {
+.schedule, .dress-code, .things-to-do, .contact-wedding-info {
   display: flex;
   align-items: center;
   font-family: 'Aref Ruqaa', serif;
   font-size: 40px;
-  color: rgb(44, 31, 3);
+  color: rgb(126, 90, 13);
   height: 800px;
   margin-top: 150px;
 }
@@ -241,12 +241,14 @@ li a:visited {
 
 .hotel {
   font-family: 'Aref Ruqaa', serif;
+  color: rgb(99, 71, 10);
   font-size: 26px;
   padding: 20px 20px 10px 20px;
 }
 
 .contact {
   font-family: 'Aref Ruqaa', serif;
+  color: rgb(126, 90, 13);
   font-size: 15px;
   padding: 20px;
 }
@@ -260,6 +262,44 @@ li a:visited {
 .eucalyptus img {
   width: 100%;
   opacity: 0.8;
+}
+
+.contact-wedding-info {
+  display: flex;
+  font-family: 'Aref Ruqaa', serif;
+  margin-top: 150px;
+}
+
+.contact-info p {
+  color: rgb(126, 90, 13);
+}
+
+.bride-and-groom {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.bride-and-groom-title {
+  color: rgb(99, 71, 10);
+  font-size: 35px;
+}
+
+.bride-and-groom-title p {
+  border-bottom: 2px solid rgb(99, 71, 10);
+  width: 272px;
+}
+
+.names {
+  color: rgb(99, 71, 10);
+  font-size: 25px;
+}
+
+.bride-and-groom img {
+  height: 500px;
+  margin-right: 150px;
+  border: 6px double rgb(233, 185, 83);
+
 }
 
 .language-toggle {
