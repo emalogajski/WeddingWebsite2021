@@ -42,12 +42,12 @@ li a {
   font-family: 'Aref Ruqaa', serif;
   text-decoration: none;
   font-size: 18px;
-  color: rgb(126, 90, 13);
+  color: rgb(68, 48, 6);
   background-color: transparent;
 }
 
 li a:hover {
-  border-bottom: 2px solid rgb(126, 90, 13);
+  border-bottom: 2px solid rgb(68, 48, 6);
 }
 
 li a:active {
@@ -56,9 +56,8 @@ li a:active {
 
 li a:visited {
   color: rgb(233, 185, 83);
-  border-bottom: 2px solid rgb(126, 90, 13);
+  border-bottom: 2px solid  rgb(233, 185, 83);
 }
-
 .couple-pic-container {
   display: flex;
   position: relative;
@@ -66,7 +65,7 @@ li a:visited {
 }
 
 .couple-pic-container img {
-  height: 700px;
+  height: 650px;
   border: 6px double rgb(233, 185, 83);
 }
 
@@ -150,11 +149,6 @@ li a:visited {
   width: 400px;
   height: 300px;
   border: 6px double rgb(233, 185, 83);
-  opacity: 50%;
-}
-
-.location-section img:hover{
-  opacity: 1;
 }
 
 .location-blurb {
@@ -171,20 +165,102 @@ li a:visited {
 
 .location-blurb a {
   text-decoration: none;
-  color: rgb(68, 48, 6);
+  color: rgb(44, 31, 3);
+  border-bottom: 2px solid rgb(44, 31, 3);
+  font-weight: 900;
 }
 
 .location-blurb a:visited {
   text-decoration: none;
-  color: rgb(99, 71, 10);
+  color: rgb(133, 95, 13);
+  border-bottom: 2px solid rgb(133, 95, 13);
 }
 
 .location-blurb a:hover {
   text-decoration: none;
   font-style: italic;
-  border-bottom: 2px solid rgb(68, 48, 6);
+  color: gb(44, 31, 3);
 }
 
+.schedule, .dress-code {
+  display: flex;
+  align-items: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 40px;
+  color: rgb(44, 31, 3);
+  height: 800px;
+  margin-top: 150px;
+}
+
+.hotel-suggestions {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-container {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  border: 6px double rgb(233, 185, 83);
+  width: 65%;
+}
+
+.hotel-suggestion-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("/Images/eucalyptus-leaf-pile.jpg");
+  height: 137px;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+
+.line-break {
+  width: 100%;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 350px;
+}
+
+.left {
+  margin-left: 130px;
+}
+
+.middle {
+  margin-top: 10px;
+}
+
+.suggestion p {
+  margin: 0;
+}
+
+.hotel {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 26px;
+  padding: 20px 20px 10px 20px;
+}
+
+.contact {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.eucalyptus {
+  height: 137px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.eucalyptus img {
+  width: 100%;
+  opacity: 0.8;
+}
 
 .language-toggle {
     position: relative;
