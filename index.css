@@ -21,17 +21,25 @@ body {
 .title-names {
   font-family: 'Aref Ruqaa', serif;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: rgb(126, 90, 13);
   font-size: 50px;
   border-bottom: 3px solid rgb(126, 90, 13);
   letter-spacing: 6px;
 }
 
+.date {
+  font-family: 'Aref Ruqaa', serif;
+  color: rgb(126, 90, 13);
+  font-size: 24px;
+}
+
 .nav-list {
   display: flex;
   list-style-type: none;
   padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 22px;
 }
 
 li {
@@ -42,22 +50,24 @@ li a {
   font-family: 'Aref Ruqaa', serif;
   text-decoration: none;
   font-size: 18px;
-  color: rgb(68, 48, 6);
+  color: rgb(126, 90, 13);
   background-color: transparent;
 }
 
 li a:hover {
-  border-bottom: 2px solid rgb(68, 48, 6);
+  border-bottom: 2px solid rgb(126, 90, 13);
+
 }
 
 li a:active {
   color: rgb(233, 185, 83);
+  border: none;
 }
 
 li a:visited {
   color: rgb(233, 185, 83);
-  border-bottom: 2px solid  rgb(233, 185, 83);
 }
+
 .couple-pic-container {
   display: flex;
   position: relative;
@@ -133,7 +143,7 @@ li a:visited {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 250px;
   position: relative;
 
 }
@@ -148,7 +158,16 @@ li a:visited {
 .location-section img{
   width: 400px;
   height: 300px;
-  border: 6px double rgb(233, 185, 83);
+}
+
+.courtyard {
+  border-top: 6px double rgb(233, 185, 83);
+  border-right: 6px double rgb(233, 185, 83);
+}
+
+.bench{
+  border-bottom: 6px double rgb(233, 185, 83);
+  border-left: 6px double rgb(233, 185, 83);
 }
 
 .location-blurb {
@@ -192,6 +211,11 @@ li a:visited {
   margin-top: 150px;
 }
 
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hotel-suggestions {
   margin-top: 150px;
   display: flex;
@@ -199,9 +223,6 @@ li a:visited {
 }
 
 .hotel-container {
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
   border: 6px double rgb(233, 185, 83);
   width: 65%;
 }
@@ -221,8 +242,6 @@ li a:visited {
 }
 
 .suggestion {
-  display: flex;
-  flex-direction: column;
   padding: 10px;
   width: 350px;
 }
