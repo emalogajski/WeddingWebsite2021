@@ -14,6 +14,7 @@ function stickyHeader () {
 function init () {
   //Function for making header sticky
   window.addEventListener('scroll', stickyHeader);
+  
 }
 
 window.onload = init;

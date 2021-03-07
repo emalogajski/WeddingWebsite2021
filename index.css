@@ -365,3 +365,12 @@ li a:visited {
 .sticky .nav-list {
   margin-top: 12px;
 }
+
+.language-toggle button .english-flag {
+  height: 20px;
+}
+
+#language-toggle {
+  height: 38px;
+  outline: 0;
+}
