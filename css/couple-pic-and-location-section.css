@@ -8,20 +8,22 @@
   height: 650px;
   border: 6px double rgb(233, 185, 83);
 }
-  
-.location {
-  width: 80%;
+
+.location-section-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  width: 969px;
+  align-items: center;
+}
+
+.location {
+  margin: 0 180px;
   padding-top: 150px;
   position: relative;
 }
   
 .location-section {
   display: flex;
-  width: 100%;
-  justify-content: center;
 }
   
 .location-section img{

@@ -1,0 +1,35 @@
+.schedule {
+  width: 100%;
+}
+
+.schedule-pic {
+  display: flex;
+  justify-content: center;
+  font-family: 'Handlee', cursive;
+  position: relative;
+}
+
+.schedule-pic img {
+  border: 6px double rgb(233, 185, 83);
+  width: 969px;
+}
+
+.schedule-pic p {
+  position: absolute;
+  top: 240px;
+  transform: rotate(-10deg);
+  line-height: 50px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 45px;
+
+}
+
+.schedule-pic .schedule-title {
+  text-decoration: underline;
+  top: 200px;
+  left: 420px;
+  font-size: 28px;
+  margin-top: 10px;
+}

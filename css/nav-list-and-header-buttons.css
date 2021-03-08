@@ -29,10 +29,34 @@ li a:active {
   color: rgb(233, 185, 83);
   border: none;
 }
-    
+
 li a:visited {
   color: rgb(233, 185, 83);
 } 
+
+.sticky {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(253, 209, 116, 0.9);
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  z-index: 1;
+}
+
+.sticky li a{
+  color: rgb(93, 66, 9);
+}
+
+.sticky li a:hover {
+  border-bottom: 2px solid rgb(93, 66, 9);
+}
+
+.sticky .nav-list {
+  margin-top: 12px;
+}
   
 .language-toggle {
   position: relative;
@@ -71,29 +95,6 @@ li a:visited {
   display: none;
 }
 
-.sticky {
-  position: fixed;
-  margin: 0;
-  top: 0;
-  width: 100%;
-  background-color: rgb(253, 209, 116, 0.9);
-  justify-content: center;
-  height: 80px;
-  align-items: center;
-  z-index: 1;
-}
-
-.sticky li a{
-  color: rgb(93, 66, 9);
-}
-
-.sticky li a:hover {
-  border-bottom: 2px solid rgb(93, 66, 9);
-}
-
-.sticky .nav-list {
-  margin-top: 12px;
-}
 
 .language-toggle button .english-flag {
   height: 20px;
