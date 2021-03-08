@@ -1,0 +1,71 @@
+.couple-pic-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  }
+  
+.couple-pic-container img {
+  height: 650px;
+  border: 6px double rgb(233, 185, 83);
+}
+  
+.location {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 150px;
+  position: relative;
+}
+  
+.location-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+  
+.location-section img{
+  height: 340px;
+  width: 50%;
+}
+  
+.courtyard {
+  border-top: 6px double rgb(233, 185, 83);
+  border-right: 6px double rgb(233, 185, 83);
+}
+  
+.bench{
+  border-bottom: 6px double rgb(233, 185, 83);
+  border-left: 6px double rgb(233, 185, 83);
+}
+  
+.location-blurb {
+  width: 50%;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 25px;
+  background-color: rgb(194, 157, 84);
+  color: rgb(68, 48, 6);
+}
+  
+.location-blurb a {
+  text-decoration: none;
+  color: rgb(44, 31, 3);
+  border-bottom: 2px solid rgb(44, 31, 3);
+  font-weight: 900;
+}
+  
+.location-blurb a:visited {
+  text-decoration: none;
+  color: rgb(133, 95, 13);
+  border-bottom: 2px solid rgb(133, 95, 13);
+}
+  
+.location-blurb a:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(44, 31, 3);
+}
