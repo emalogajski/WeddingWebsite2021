@@ -33,3 +33,31 @@
   font-size: 28px;
   margin-top: 10px;
 }
+
+.dress-code-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dress-code-wrapper p {
+  display: none
+}
+
+.dress-code-wrapper .how-to-dress {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+.dress-code-wrapper img {
+  border: 6px double rgb(233, 185, 83);
+}
+
+.how-to-dress-img {
+  opacity: 0.2;
+}
