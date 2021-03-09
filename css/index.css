@@ -48,12 +48,6 @@ body {
   justify-content: center;
 }
 
-.hotel-suggestions {
-  margin-top: 150px;
-  display: flex;
-  justify-content: center;
-}
-
 .hotel-container {
   border: 6px double rgb(233, 185, 83);
   width: 70%;

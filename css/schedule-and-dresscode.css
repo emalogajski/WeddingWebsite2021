@@ -45,13 +45,19 @@
   display: none
 }
 
+.dress-code .common-section {
+  /* padding-bottom: 150px; */
+  
+}
+
 .dress-code-wrapper .how-to-dress {
   display: block;
   position: absolute;
-  top: 100px;
+  top: 56px;
   left: 80px;
-  font-size: 36px;
-  margin-right: 50px;
+  font-size: 32px;
+  margin-right: 0 50px;
+  color: rgb(46, 43, 43);
 }
 
 .dress-code-wrapper img {
@@ -60,4 +66,31 @@
 
 .how-to-dress-img {
   opacity: 0.2;
+}
+
+.dress-code-title {
+  position: absolute;
+  padding-bottom: 26px;
+  bottom: 6px;
+  color: rgb(238, 169, 20);
+  font-family: 'Handlee', cursive;
+  font-weight: 900;
+  font-size: 90px;
+  background-color: rgba(43, 41, 41, 0.616);
+  width: 98.6%;
+  display: flex;
+  justify-content: center;
+}
+
+.alternate {
+  position: absolute;
+  padding-bottom: 26px;
+  bottom: 6px;
+  color: rgb(46, 43, 43);
+  font-family: 'Handlee', cursive;
+  font-weight: 900;
+  font-size: 90px;
+  width: 98.6%;
+  display: flex;
+  justify-content: center;
 }
