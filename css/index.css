@@ -2,6 +2,7 @@
 @import './couple-pic-and-location-section.css';
 @import './nav-list-and-header-buttons.css';
 @import './schedule-and-dresscode.css';
+@import './gifts.css';
 
 * {
   box-sizing: border-box;
@@ -50,17 +51,26 @@ body {
 
 .hotel-container {
   border: 6px double rgb(233, 185, 83);
-  width: 70%;
+  width: 969px;
 }
 
-.hotel-suggestion-title {
+.hotel-suggestion-title-pic {
   width: 100%;
   display: flex;
   justify-content: center;
   background-image: url("/Images/eucalyptus-leaf-pile.jpg");
   height: 137px;
   opacity: 0.7;
-  margin-bottom: 50px;
+}
+
+.hotel-suggestion-title {
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-suggestion-title p {
+  border-bottom: 2px solid;
+  margin: 20px 0;
 }
 
 .line-break {
@@ -110,9 +120,13 @@ body {
 }
 
 .contact-wrapper {
-  width: 700px;
+  width: 800px;
   display: flex;
   font-size: 20px;
+}
+
+.number-two {
+  justify-content: center;
 }
 
 .contact-title {
@@ -122,7 +136,17 @@ body {
 
 .contact-title p {
   border-bottom: 2px solid rgb(99, 71, 10);
-  width: 272px;
+  margin: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.german p {
+  width: 190px;
 }
 
 .names {
@@ -133,14 +157,19 @@ body {
 .contact-wrapper img {
   height: 500px;
   margin-right: 50px;
-  border: 6px double rgb(233, 185, 83);
+  border-right: 6px double rgb(233, 185, 83);
 }
 
 .first {
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+  border: 6px double rgb(233, 185, 83);
 }
 
-.trauzeugen p {
-  width: auto;
-  border: none;
+.second {
+  border: 2px solid rgb(233, 185, 83);
+  padding: 50px;
+}
+
+.english-bride-groom-title {
+  width: 240px;
 }

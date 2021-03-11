@@ -29,7 +29,7 @@
 .schedule-pic .schedule-title {
   text-decoration: underline;
   top: 200px;
-  left: 420px;
+  left: 405px;
   font-size: 28px;
   margin-top: 10px;
 }
@@ -41,16 +41,16 @@
   justify-content: center;
 }
 
-.dress-code-wrapper p {
-  display: none
+.dress-code-wrapper:hover > img {
+  opacity: 0.2;
 }
 
-.dress-code .common-section {
-  /* padding-bottom: 150px; */
-  
+.dress-code-wrapper:hover > div {
+  background-color: #ffffff12;
+  color: rgb(46, 43, 43);
 }
 
-.dress-code-wrapper .how-to-dress {
+.dress-code-wrapper:hover > p {
   display: block;
   position: absolute;
   top: 56px;
@@ -58,6 +58,10 @@
   font-size: 32px;
   margin-right: 0 50px;
   color: rgb(46, 43, 43);
+}
+
+.dress-code-wrapper p {
+  display: none
 }
 
 .dress-code-wrapper img {
@@ -77,19 +81,6 @@
   font-weight: 900;
   font-size: 90px;
   background-color: rgba(43, 41, 41, 0.616);
-  width: 98.6%;
-  display: flex;
-  justify-content: center;
-}
-
-.alternate {
-  position: absolute;
-  padding-bottom: 26px;
-  bottom: 6px;
-  color: rgb(46, 43, 43);
-  font-family: 'Handlee', cursive;
-  font-weight: 900;
-  font-size: 90px;
   width: 98.6%;
   display: flex;
   justify-content: center;

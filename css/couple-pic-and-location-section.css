@@ -71,3 +71,11 @@
   font-style: italic;
   color: rgb(44, 31, 3);
 }
+
+.location-name {
+  font-weight: 900;
+  font-size: 28px;
+  margin-left: 70px;
+  border-bottom: 2px solid;
+  line-height: 70px;
+}
