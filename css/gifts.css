@@ -8,4 +8,32 @@
 .gift-description {
   font-size: 20px;
   margin: 0;
+  width: 960px;
+  position: absolute;
+  bottom: 0;
+  color: rgb(243 211 143 / 90%);
+  background-color: #2a423fbf;
+  bottom: 6px;
+}
+
+.gift-description p {
+  padding: 0 30px;
+  text-align: justify;
+}
+
+.gifts-title {
+  position: absolute;
+  top: 100px;
+  font-size: 70px;
+  color: rgb(11 107 121);
+}
+
+.gifts-wrapper img {
+  position: relative;
+  border: 6px double rgb(233, 185, 83);
+}
+
+.german-version p {
+  padding: 0 20px;
+  margin: 10px;
 }
