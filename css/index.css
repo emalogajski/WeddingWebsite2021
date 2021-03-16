@@ -31,6 +31,7 @@ body {
 .common-section {
   justify-content: center;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   font-family: 'Aref Ruqaa', serif;
@@ -127,11 +128,19 @@ body {
 
 .number-two {
   justify-content: center;
+  flex-wrap: wrap;
+  border: 6px double rgb(233, 185, 83);
+  position: relative;
 }
 
 .contact-title {
   color: rgb(99, 71, 10);
   font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 16px;
 }
 
 .contact-title p {
@@ -165,11 +174,23 @@ body {
   border: 6px double rgb(233, 185, 83);
 }
 
-.second {
-  border: 2px solid rgb(233, 185, 83);
-  padding: 50px;
-}
-
 .english-bride-groom-title {
   width: 240px;
+}
+
+.contact-wrapper .pic-lilly {
+  height: 200px;
+  border: none;
+  margin-right: 80px;
+}
+
+.bridesmaid-bestman {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 550px;
+}
+
+.pic-wenzel {
+  filter: grayscale(100%);
 }
