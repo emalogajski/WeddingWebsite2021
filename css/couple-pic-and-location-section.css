@@ -1,9 +1,12 @@
+.sections-wrapper {
+  width: 100%;
+}
+
 .couple-pic-container {
   display: flex;
-  position: relative;
   justify-content: center;
-  }
-  
+}
+
 .couple-pic-container img {
   height: 650px;
   border: 6px double rgb(233, 185, 83);
@@ -12,12 +15,12 @@
 .location-section-wrapper {
   display: flex;
   flex-wrap: wrap;
-  width: 969px;
+  width: 100%;
   align-items: center;
 }
 
 .location {
-  margin: 0 180px;
+  margin: 0 100px;
   padding-top: 150px;
   position: relative;
 }
@@ -26,7 +29,7 @@
   display: flex;
 }
   
-.location-section img{
+.location-section img {
   height: 340px;
   width: 50%;
 }
@@ -36,7 +39,7 @@
   border-right: 6px double rgb(233, 185, 83);
 }
   
-.bench{
+.bench{ 
   border-bottom: 6px double rgb(233, 185, 83);
   border-left: 6px double rgb(233, 185, 83);
 }

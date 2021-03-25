@@ -1,9 +1,9 @@
-let navigationMenu;
 let sticky;
 let home;
+const navigationMenu = document.getElementById('nav-list');
+const frontPageWrapper = document.getElementById('front-page');
 
 function stickyHeader () {
-  navigationMenu = document.getElementById('nav-list');
   sticky = navigationMenu.offsetTop;
 
   if(window.pageYOffset > sticky) {
@@ -13,9 +13,15 @@ function stickyHeader () {
   }
 }
 
+function setWidth () {
+  const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
+  window.innerWidth = frontPageWrapperWidth;
+}
+
 function init () {
   //Function for making header sticky
   window.addEventListener('scroll', stickyHeader);
+  setWidth();
 }
 
 window.onload = init;

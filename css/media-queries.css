@@ -1,0 +1,58 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+    li a {
+    font-size: 21px;
+  }
+
+  .language-toggle button {
+    right: 32px;
+    font-size: 21px;
+  }
+
+  .language-toggle button .english-flag {
+    height: 30px;
+  }
+
+  .language-toggle button img {
+    width: 52px;
+  }
+
+  .suggestion > .contact {
+    font-size: 20px;
+  }
+
+  .inner-container > .suggestion {
+    width: 400px;
+  }
+
+  .inner-container > .line-break {
+    width: 400px;
+  }
+
+  .hotel-suggestion-title {
+    font-size: 44px;
+  }
+
+  .personal-contact-info {
+    font-size: 22px;
+  }
+
+  .contact-wrapper > .bridesmaid-bestman {
+    width: 600px;
+  }
+
+  .schedule-pic .schedule-title {
+    font-size: 30px;
+    left: 390px;
+  }
+
+  .schedule-pic p {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1330px) {
+  .location {
+    margin: 0 180px;
+  }
+
+}

@@ -3,6 +3,7 @@
 @import './nav-list-and-header-buttons.css';
 @import './schedule-and-dresscode.css';
 @import './gifts.css';
+@import './media-queries.css';
 
 * {
   box-sizing: border-box;
