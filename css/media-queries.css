@@ -1,10 +1,12 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
     li a {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .language-toggle button {
-    right: 32px;
+    /* top: 754px; */
+    right: 6px;
+    top: 50px;
     font-size: 21px;
   }
 
@@ -55,4 +57,93 @@
     margin: 0 180px;
   }
 
+}
+
+@media only screen and (max-device-width: 768px) {
+  .nav-list {
+    display: none;
+    align-content: unset;
+  }  
+
+  .date {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-content: unset;
+  }
+
+  .sticky {
+    display: none;
+  }
+
+  .couple-pic-container > img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .location {
+    margin: 0 150px;
+  }
+
+  .location-blurb {
+    height: 318px;
+    font-size: 20px;
+  }
+
+  .location-name {
+    font-size: 24px;
+    line-height: 46px;
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+
+  .location-section img {
+    height: 318px;
+  }
+
+  .location-blurb p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .schedule-pic img {
+    height: 70%;
+    width: 70%;
+  }
+
+  .schedule-pic .schedule-title {
+    top: 134px;
+    left: 408px;
+    font-size: 24px;
+    margin-left: 22px;
+  }
+
+  .schedule-pic p {
+    top: 194px;
+    line-height: 42px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+
+  .dress-code-wrapper img {
+    width: 70%;
+  }
+
+  .dress-code-title {
+    width: 68%;
+    font-size: 66px;
+    padding-bottom: 12px;
+  }
+
+  .dress-code-wrapper:hover > p {
+    top: 15px;
+    left: 194px;
+    font-size: 25px;
+    width: 68%;
+  }
+
+  .common-section {
+    
+  }
 }

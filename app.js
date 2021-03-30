@@ -25,3 +25,15 @@ function init () {
 }
 
 window.onload = init;
+window.listenerAdded === true;
+
+
+function mediaQueries () {
+    if(window.innerWidth <= 768) {
+        window.removeEventListener('scroll', stickyHeader);
+        window.listenerAdded === false;
+    }// } else {
+    //   window.addEventListener('scroll', stickyHeader);
+    //   window.listenerAdded === true;
+    // }
+}

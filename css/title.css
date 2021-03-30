@@ -5,13 +5,16 @@
   color: rgb(126, 90, 13);
   font-size: 50px;
   border-bottom: 3px solid rgb(126, 90, 13);
-  letter-spacing: 6px;  }
+  letter-spacing: 6px;  
+  align-items: center;
+}
   
 .date {
   font-family: 'Aref Ruqaa', serif;
   color: rgb(126, 90, 13);
   font-size: 30px;
   margin-bottom: 16px;
+  align-items: center;
 }
 
 .heart {
