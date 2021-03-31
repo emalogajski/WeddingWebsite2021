@@ -5,6 +5,7 @@
 .couple-pic-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .couple-pic-container img {

@@ -64,8 +64,33 @@
   }
   
   .couple-pic-container {
-    margin-top: 60px;
-    margin-bottom: 300px;
+    margin-top: 70px;
+    /* margin-bottom: 800px; */
+  }
+
+  .heart-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 400px 0;
+  }
+
+  .separator {
+    height: 16px;
+    width: 16px;
+  }
+
+  .separator:before, .separator:after {
+    height: 16px;
+    width: 16px;
+  }
+
+  .separator:before {
+    top: -10px;
+  }
+
+  .separator:after {
+    left: 10px;
   }
 
   .nav-list {
@@ -87,6 +112,7 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 200px;
+    padding-top: 0px;
   }
 
   .location-blurb {
@@ -163,12 +189,12 @@
   }
 
   .language-toggle button img {
-    width: 56px;
-    height: 26px;
+    width: 60px;
+    height: 30px;
   }
 
   .language-toggle button {
-    font-size: 26px;
-    right: 10px;
+    font-size: 24px;
+    right: 20px;
   }
 }
