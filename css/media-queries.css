@@ -127,7 +127,7 @@
   }
 
   .common-section .hotel-container {
-    width: 86%;
+    width: 100%;
   }
 
   .language-toggle button img {
@@ -138,5 +138,9 @@
   .language-toggle button {
     font-size: 22px;
     right: 10px;
+  }
+
+  .common-section .contact-wrapper {
+    width: 100%;
   }
 }
