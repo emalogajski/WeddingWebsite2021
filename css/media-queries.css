@@ -111,7 +111,6 @@
   .location {
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 200px;
     padding-top: 0px;
   }
 
@@ -142,8 +141,8 @@
     font-size: 24px;
   }
 
-  .schedule {
-    margin-bottom: 200px;
+  #schedule {
+    padding-top: 0;
   }
 
   .schedule-pic .schedule-title {
@@ -161,8 +160,8 @@
     margin-top: 0;
   }
 
-  .dress-code {
-    margin-bottom: 200px;
+  #dress-code {
+    padding-top: 0;
   }
 
   .dress-code-title {
@@ -177,15 +176,19 @@
   }
 
   #hotel-suggestions {
-    margin-bottom: 200px;
+    padding-top: 0px;
   }
 
   .common-section .hotel-container {
     width: 85%;
   }
 
-  .gifts {
-    margin-bottom: 200px;
+  #gifts {
+    padding-top: 0px;
+  }
+
+  #contact-wedding-info {
+    padding-top: 0px;
   }
 
   .language-toggle button img {
