@@ -4,7 +4,6 @@
   }
 
   .language-toggle button {
-    /* top: 754px; */
     right: 6px;
     top: 50px;
     font-size: 21px;
@@ -75,13 +74,8 @@
     display: none;
   }
 
-  .couple-pic-container > img {
-    width: 70%;
-    height: 70%;
-  }
-
   .location {
-    margin: 0 150px;
+    margin: 0;
   }
 
   .location-blurb {
@@ -106,32 +100,22 @@
     align-items: center;
   }
 
-  .schedule-pic img {
-    height: 70%;
-    width: 70%;
-  }
-
   .schedule-pic .schedule-title {
-    top: 134px;
-    left: 408px;
-    font-size: 24px;
+    top: 198px;
+    left: 400px;
+    font-size: 28px;
     margin-left: 22px;
   }
 
   .schedule-pic p {
-    top: 194px;
+    top: 269px;
     line-height: 42px;
-    font-size: 20px;
-    margin-left: 50px;
+    font-size: 23px;
+    margin-left: 45px;
     margin-top: 0;
   }
 
-  .dress-code-wrapper img {
-    width: 70%;
-  }
-
   .dress-code-title {
-    width: 68%;
     font-size: 66px;
     padding-bottom: 12px;
   }
@@ -140,10 +124,19 @@
     top: 15px;
     left: 194px;
     font-size: 25px;
-    width: 68%;
   }
 
-  .common-section {
-    
+  .common-section .hotel-container {
+    width: 86%;
+  }
+
+  .language-toggle button img {
+    width: 56px;
+    height: 26px;
+  }
+
+  .language-toggle button {
+    font-size: 22px;
+    right: 10px;
   }
 }
