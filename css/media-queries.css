@@ -58,8 +58,13 @@
 }
 
 @media only screen and (max-device-width: 768px) {
+  .title-names {
+    margin-top: 100px;
+  }
+  
   .couple-pic-container {
-    margin: 100px 0;
+    margin-top: 60px;
+    margin-bottom: 200px;
   }
 
   .nav-list {
@@ -78,7 +83,9 @@
   }
 
   .location {
-    margin: 100px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 200px;
   }
 
   .location-blurb {
@@ -109,7 +116,7 @@
   }
 
   .schedule {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .schedule-pic .schedule-title {
@@ -128,7 +135,7 @@
   }
 
   .dress-code {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .dress-code-title {
@@ -143,7 +150,7 @@
   }
 
   #hotel-suggestions {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .common-section .hotel-container {
@@ -151,7 +158,7 @@
   }
 
   .gifts {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .language-toggle button img {
