@@ -1,7 +1,18 @@
 let sticky;
-let home;
+let dressCodeSectionTop;
 const navigationMenu = document.getElementById('nav-list');
 const frontPageWrapper = document.getElementById('front-page');
+const dressCodeSection = document.getElementById('dress-code');
+const dressCodeForSmallScreens = document.getElementById('dress-code-for-small-screens');
+
+function showDressCode () {
+  dressCodeSectionTop = dressCodeSection.offsetTop;
+  if(window.pageYOffset <= dressCodeSectionTop) {
+    dressCodeForSmallScreens.classList.add('dress-code-for-small-screens');
+  } else {
+    dressCodeForSmallScreens.classList.remove('dress-code-for-small-screens');
+  }
+}
 
 function stickyHeader () {
   sticky = navigationMenu.offsetTop;
@@ -19,21 +30,10 @@ function setWidth () {
 }
 
 function init () {
-  //Function for making header sticky
   window.addEventListener('scroll', stickyHeader);
   setWidth();
+  window.addEventListener('scroll', showDressCode);
+
 }
 
 window.onload = init;
-window.listenerAdded === true;
-
-
-function mediaQueries () {
-    if(window.innerWidth <= 768) {
-        window.removeEventListener('scroll', stickyHeader);
-        window.listenerAdded === false;
-    }// } else {
-    //   window.addEventListener('scroll', stickyHeader);
-    //   window.listenerAdded === true;
-    // }
-}

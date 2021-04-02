@@ -5,7 +5,6 @@
 .couple-pic-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 .couple-pic-container img {
@@ -21,7 +20,7 @@
 }
 
 .location {
-  margin: 0 100px;
+  margin: 0 470px;
   padding-top: 150px;
   position: relative;
 }

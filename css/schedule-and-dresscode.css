@@ -41,25 +41,6 @@
   justify-content: center;
 }
 
-.dress-code-wrapper:hover > img {
-  opacity: 0.2;
-}
-
-.dress-code-wrapper:hover > div {
-  background-color: #ffffff12;
-  color: rgb(46, 43, 43);
-}
-
-.dress-code-wrapper:hover > p {
-  display: block;
-  position: absolute;
-  top: 56px;
-  left: 80px;
-  font-size: 32px;
-  margin-right: 0 50px;
-  color: rgb(46, 43, 43);
-}
-
 .dress-code-wrapper p {
   display: none
 }
@@ -84,4 +65,8 @@
   width: 98.6%;
   display: flex;
   justify-content: center;
+}
+
+.dress-code-for-small-screens {
+  display: none;
 }

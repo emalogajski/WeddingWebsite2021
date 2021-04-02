@@ -1,5 +1,14 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
-    li a {
+  .heart-separator {
+    display: none;
+  }
+
+  .location {
+    margin: 0 180px;
+    padding-top: 0;
+  }
+
+  li a {
     font-size: 18px;
   }
 
@@ -51,9 +60,9 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1330px) {
-  .location {
-    margin: 0 180px;
+@media only screen and (min-device-width: 1000px) {
+  .heart-separator {
+    display: none;
   }
 }
 
@@ -65,7 +74,7 @@
   
   .couple-pic-container {
     margin-top: 70px;
-    /* margin-bottom: 800px; */
+    flex-direction: column;
   }
 
   .heart-separator {
@@ -102,6 +111,7 @@
     margin-top: 48px;
     margin-bottom: 30px;
     align-content: unset;
+    font-size: 34px;
   }
 
   .sticky {
@@ -109,8 +119,7 @@
   }
 
   .location {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 5px;
     padding-top: 0px;
   }
 
@@ -175,6 +184,17 @@
     font-size: 25px;
   }
 
+  #dress-code-for-small-screens {
+    background-color: rgb(253, 209, 116, 0.62);
+    margin: 3px 5px 0 5px;
+    padding-bottom: 30px;
+  }
+
+  #dress-code-for-small-screens > p{
+    margin: 30px 40px 0 68px;
+    font-size: 26px;
+  }
+
   #hotel-suggestions {
     padding-top: 0px;
   }
@@ -199,5 +219,26 @@
   .language-toggle button {
     font-size: 24px;
     right: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .hover-state:hover > img {
+    opacity: 0.2;
+  }
+
+  .hover-state:hover > div {
+    background-color: #ffffff12;
+    color: rgb(46, 43, 43);
+  }
+
+  .hover-state:hover > p {
+    display: block;
+    position: absolute;
+    top: 56px;
+    left: 80px;
+    font-size: 32px;
+    margin-right: 0 50px;
+    color: rgb(46, 43, 43);
   }
 }
