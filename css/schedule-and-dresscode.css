@@ -67,6 +67,21 @@
   justify-content: center;
 }
 
-.dress-code-for-small-screens {
-  display: none;
+.small-screens > img {
+  opacity: 0.2;
+}
+
+.small-screens > div {
+  background-color: #ffffff12;
+  color: rgb(46, 43, 43);
+}
+
+.small-screens > p {
+  display: block;
+  position: absolute;
+  top: 56px;
+  left: 80px;
+  font-size: 32px;
+  margin-right: 0 50px;
+  color: rgb(46, 43, 43);
 }

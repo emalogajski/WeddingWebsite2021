@@ -4,13 +4,17 @@ const navigationMenu = document.getElementById('nav-list');
 const frontPageWrapper = document.getElementById('front-page');
 const dressCodeSection = document.getElementById('dress-code');
 const dressCodeForSmallScreens = document.getElementById('dress-code-for-small-screens');
+const dressCodeInsideDiv = document.getElementById('dress-code-inside-div');
 
 function showDressCode () {
+  console.log('pageYOffset:', window.pageYOffset);
+  console.log('offsetTop:', dressCodeSection.offsetTop);
+
   dressCodeSectionTop = dressCodeSection.offsetTop;
-  if(window.pageYOffset <= dressCodeSectionTop) {
-    dressCodeForSmallScreens.classList.add('dress-code-for-small-screens');
+  if(window.pageYOffset > dressCodeSectionTop) {
+    dressCodeInsideDiv.classList.add('small-screens');
   } else {
-    dressCodeForSmallScreens.classList.remove('dress-code-for-small-screens');
+    dressCodeInsideDiv.classList.remove('small-screens');
   }
 }
 

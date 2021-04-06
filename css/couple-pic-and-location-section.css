@@ -20,9 +20,14 @@
 }
 
 .location {
-  margin: 0 470px;
+  margin: 0 150px;
   padding-top: 150px;
   position: relative;
+}
+
+.location p {
+  display: flex;
+  flex-direction: column;
 }
   
 .location-section {
@@ -48,6 +53,7 @@
   width: 50%;
   height: 340px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Aref Ruqaa', serif;
@@ -56,7 +62,7 @@
   color: rgb(68, 48, 6);
 }
   
-.location-blurb a {
+.location-name {
   text-decoration: none;
   color: rgb(44, 31, 3);
   border-bottom: 2px solid rgb(44, 31, 3);
@@ -75,10 +81,9 @@
   color: rgb(44, 31, 3);
 }
 
-.location-name {
+.location-blurb p {
   font-weight: 900;
   font-size: 28px;
-  margin-left: 70px;
-  border-bottom: 2px solid;
-  line-height: 70px;
+  line-height: 50px;
+  margin: 10px 0;
 }
