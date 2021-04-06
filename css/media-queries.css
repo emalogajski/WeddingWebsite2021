@@ -128,9 +128,7 @@
   }
 
   .location-blurb {
-    font-size: 20px;
     width: 100%;
-    font-size: 22px;
     border-top: none;
     height: 650px;
     margin-bottom: 3px;
@@ -170,6 +168,18 @@
 
   .location-blurb a {
     font-size: 40px;
+  }
+
+  .location-blurb a:visited {
+    text-decoration: none;
+    color: rgb(133, 95, 13);
+    border-bottom: 2px solid rgb(133, 95, 13);
+  }
+    
+  .location-blurb a:hover {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(44, 31, 3);
   }
 
   .courtyard {
