@@ -1,17 +1,15 @@
 let sticky;
-let dressCodeSectionTop;
+let separatorBeforeDressCodeOffSetTop;
 const navigationMenu = document.getElementById('nav-list');
 const frontPageWrapper = document.getElementById('front-page');
 const dressCodeSection = document.getElementById('dress-code');
 const dressCodeForSmallScreens = document.getElementById('dress-code-for-small-screens');
 const dressCodeInsideDiv = document.getElementById('dress-code-inside-div');
+const separatorBeforeDressCode = document.getElementById('separator-before-dress-code');
 
 function showDressCode () {
-  console.log('pageYOffset:', window.pageYOffset);
-  console.log('offsetTop:', dressCodeSection.offsetTop);
-
-  dressCodeSectionTop = dressCodeSection.offsetTop;
-  if(window.pageYOffset > dressCodeSectionTop) {
+  separatorBeforeDressCodeOffSetTop = separatorBeforeDressCode.offsetTop;
+  if(window.pageYOffset > separatorBeforeDressCodeOffSetTop) {
     dressCodeInsideDiv.classList.add('small-screens');
   } else {
     dressCodeInsideDiv.classList.remove('small-screens');

@@ -199,7 +199,7 @@
 
   .schedule-pic .schedule-title {
     top: 198px;
-    left: 230px;
+    left: 326px;
     font-size: 38px;
   }
 
@@ -207,7 +207,7 @@
     top: 269px;
     line-height: 42px;
     font-size: 30px;
-    margin-left: 172px;
+    margin-left: 68px;
     margin-top: 0;
   }
 
@@ -231,17 +231,31 @@
   }
 
   .common-section .hotel-container {
-    width: 85%;
+    width: 90%;
   }
 
   .hotel-container .inner-container {
-    display: block;
-    margin: auto;
-    width: 50%;
+    flex-direction: column;
   }
 
-  .suggestion {
-    margin-left: 62px;
+  .inner-container .suggestion {
+    width: 100%;
+  }
+
+  .suggestion .hotel {
+    font-size: 46px;
+  }
+
+  .suggestion .contact {
+    font-size: 30px;
+  }
+
+  .suggestion, .suggestion-middle {
+    margin-left: 50px;
+  }
+
+  .hotel-suggestion-title {
+    font-size: 60px;
   }
 
   #gifts {
