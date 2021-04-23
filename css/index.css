@@ -29,6 +29,38 @@ body {
   background-color: rgb(235, 180, 31, 0.12);
 }
 
+.corona-update {
+  font-family: 'Aref Ruqaa', serif;
+  display: block;
+  position: absolute;
+  top: 350px;
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  z-index: 1;
+  padding: 10px 40px;
+  text-align: justify;
+}
+
+.corona-update-title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  width: max-content;
+  margin: 40px auto 10px auto;
+  border-bottom: 3px solid black;
+}
+
+.corona-update-info {
+  font-size: 26px;
+}
+
+.corona-update span {
+  height: 20px;
+  width: 20px;
+  color: black;
+}
+
 .common-section {
   justify-content: center;
   display: flex;
@@ -152,7 +184,6 @@ body {
 .contact-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .german p {

@@ -155,7 +155,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 44px;
   }
 
   .location-blurb span  {
@@ -164,6 +164,7 @@
 
   .location-blurb .location-name {
     font-size: 44px;
+    margin-bottom: 30px;
   }
 
   .location-blurb a {
@@ -206,8 +207,8 @@
   .schedule-pic p {
     top: 269px;
     line-height: 42px;
-    font-size: 30px;
-    margin-left: 68px;
+    font-size: 28px;
+    margin-left: 64px;
     margin-top: 0;
   }
 
@@ -281,6 +282,42 @@
     right: 55px;
     top: 18px;
   }
+
+  .contact-info {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-wedding-info .contact-wrapper {
+    width: 100%;
+  }
+
+ .contact-wedding-info .contact-wrapper img {
+    height: 700px;
+    margin-right: 0;
+  }
+
+  .contact-wedding-info .contact-wrapper .pic-lilly {
+    height: 300px;
+    margin-right: 60px;
+  }
+
+  .contact-title p {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .personal-contact-info p {
+    width: 100%;
+    width: 370px;
+    font-size: 24px;
+  }
+
+  .personal-contact-info .names {
+    font-size: 32px;
+  }
+
 }
 
 @media only screen and (min-device-width: 768px) {
