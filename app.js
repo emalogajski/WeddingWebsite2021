@@ -6,6 +6,9 @@ const dressCodeSection = document.getElementById('dress-code');
 const dressCodeForSmallScreens = document.getElementById('dress-code-for-small-screens');
 const dressCodeInsideDiv = document.getElementById('dress-code-inside-div');
 const separatorBeforeDressCode = document.getElementById('separator-before-dress-code');
+const closeButton = document.getElementById('close-button');
+const coronaUpdateDiv = document.getElementById('corona-update');
+
 
 function showDressCode () {
   separatorBeforeDressCodeOffSetTop = separatorBeforeDressCode.offsetTop;
@@ -30,6 +33,8 @@ function setWidth () {
   const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
   window.innerWidth = frontPageWrapperWidth;
 }
+
+closeButton.addEventListener('click', () => coronaUpdateDiv.classList.add('dissappear'));
 
 function init () {
   window.addEventListener('scroll', stickyHeader);
