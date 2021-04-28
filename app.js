@@ -1,5 +1,3 @@
-let sticky;
-let separatorBeforeDressCodeOffSetTop;
 const navigationMenu = document.getElementById('nav-list');
 const frontPageWrapper = document.getElementById('front-page');
 const dressCodeSection = document.getElementById('dress-code');
@@ -9,10 +7,9 @@ const separatorBeforeDressCode = document.getElementById('separator-before-dress
 const closeButton = document.getElementById('close-button');
 const coronaUpdateDiv = document.getElementById('corona-update');
 
-
+//TODO: check if the screen is small (aka in smallest media query)
 function showDressCode () {
-  separatorBeforeDressCodeOffSetTop = separatorBeforeDressCode.offsetTop;
-  if(window.pageYOffset > separatorBeforeDressCodeOffSetTop) {
+  if(window.pageYOffset > separatorBeforeDressCode.offsetTop) {
     dressCodeInsideDiv.classList.add('small-screens');
   } else {
     dressCodeInsideDiv.classList.remove('small-screens');
@@ -20,7 +17,7 @@ function showDressCode () {
 }
 
 function stickyHeader () {
-  sticky = navigationMenu.offsetTop;
+  let sticky = navigationMenu.offsetTop;
 
   if(window.pageYOffset > sticky) {
     navigationMenu.classList.add('sticky');
@@ -29,16 +26,16 @@ function stickyHeader () {
   }
 }
 
-function setWidth () {
-  const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
-  window.innerWidth = frontPageWrapperWidth;
-}
+// function setWidth () {
+//   const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
+//   frontPageWrapperWidth = window.innerWidth;
+// }
 
 closeButton.addEventListener('click', () => coronaUpdateDiv.classList.add('dissappear'));
 
 function init () {
   window.addEventListener('scroll', stickyHeader);
-  setWidth();
+  // setWidth();
   window.addEventListener('scroll', showDressCode);
 
 }
