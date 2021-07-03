@@ -49,3 +49,21 @@
   left: 8px;
   top: 0;
 }
+
+@media only screen and (max-device-width: 768px) {
+  .title-names {
+    margin-top: 100px;
+    font-size: 70px;
+  }
+
+  .date {
+    margin-top: 48px;
+    margin-bottom: 30px;
+    align-content: unset;
+    font-size: 46px;
+  }
+
+  .heart {
+    top: -4px;
+  }
+}

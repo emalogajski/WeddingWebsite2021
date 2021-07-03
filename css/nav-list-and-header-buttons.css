@@ -98,7 +98,6 @@ li a:visited {
   display: none;
 }
 
-
 .language-toggle button .english-flag {
   height: 20px;
 }
@@ -106,4 +105,54 @@ li a:visited {
 #language-toggle {
   height: 38px;
   outline: 0;
+}
+
+@media only screen and (max-device-width: 768px) {
+  
+  .nav-list {
+    display: none;
+    align-content: unset;
+  }  
+  
+  .sticky {
+    display: none;
+  }
+    
+  .language-toggle button img {
+    width: 70px;
+    height: 40px;
+  }
+
+  .language-toggle button .english-flag {
+    width: 70px;
+    height: 40px;
+  }
+
+  .language-toggle button {
+    font-size: 32px;
+    right: 55px;
+    top: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1000px) {
+  
+  li a {
+    font-size: 18px;
+  }
+
+  .language-toggle button {
+    right: 6px;
+    top: 50px;
+    font-size: 21px;
+  }
+
+  .language-toggle button .english-flag {
+    height: 30px;
+  }
+
+  .language-toggle button img {
+    width: 52px;
+  }
+
 }

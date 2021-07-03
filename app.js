@@ -9,12 +9,19 @@ const coronaUpdateDiv = document.getElementById('corona-update');
 
 //TODO: check if the screen is small (aka in smallest media query)
 function showDressCode () {
-  if(window.pageYOffset > separatorBeforeDressCode.offsetTop) {
-    dressCodeInsideDiv.classList.add('small-screens');
-  } else {
-    dressCodeInsideDiv.classList.remove('small-screens');
+  if(window.innerWidth < 768) {
+    if(window.pageYOffset > separatorBeforeDressCode.offsetTop) {
+      window.addEventListener('scroll', () => {
+        dressCodeInsideDiv.classList.add('small-screens');
+      });
+    } else {
+      dressCodeInsideDiv.classList.remove('small-screens');
+    }
   }
+  return;
 }
+
+window.addEventListener('resize', showDressCode);
 
 function stickyHeader () {
   let sticky = navigationMenu.offsetTop;
@@ -26,17 +33,17 @@ function stickyHeader () {
   }
 }
 
-// function setWidth () {
-//   const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
-//   frontPageWrapperWidth = window.innerWidth;
-// }
+function setWidth () {
+  const frontPageWrapperWidth = frontPageWrapper.offsetWidth;
+  frontPageWrapperWidth = window.innerWidth;
+}
 
 closeButton.addEventListener('click', () => coronaUpdateDiv.classList.add('dissappear'));
 
 function init () {
   window.addEventListener('scroll', stickyHeader);
-  // setWidth();
-  window.addEventListener('scroll', showDressCode);
+  setWidth();
+  // window.addEventListener('scroll', showDressCode);
 
 }
 

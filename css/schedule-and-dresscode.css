@@ -85,3 +85,43 @@
   margin-right: 0 50px;
   color: rgb(46, 43, 43);
 }
+
+@media only screen and (max-device-width: 768px) {
+
+  .schedule-pic .schedule-title {
+    top: 198px;
+    left: 326px;
+    font-size: 38px;
+  }
+
+  .schedule-pic p {
+    top: 269px;
+    line-height: 42px;
+    font-size: 28px;
+    margin-left: 64px;
+    margin-top: 0;
+  }
+
+  .dress-code-wrapper:hover > p {
+    top: 15px;
+    left: 194px;
+    font-size: 25px;
+  }
+
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1000px) {
+  .schedule-pic .schedule-title {
+    font-size: 30px;
+    left: 390px;
+  }
+
+  .schedule-pic p {
+    font-size: 26px;
+  }
+    
+  .dress-code-title {
+    font-size: 66px;
+    padding-bottom: 12px;
+  }
+}

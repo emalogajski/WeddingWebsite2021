@@ -1,343 +1,199 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
-  .heart-separator {
-    display: none;
-  }
+@media only screen and (min-device-width: 769px) and (max-device-width: 1000px) {
+    .location {
+      margin: 0 180px;
+      padding-top: 0;
+    }
 
-  .location {
-    margin: 0 180px;
-    padding-top: 0;
-  }
-
-  li a {
-    font-size: 18px;
-  }
-
-  .language-toggle button {
-    right: 6px;
-    top: 50px;
-    font-size: 21px;
-  }
-
-  .language-toggle button .english-flag {
-    height: 30px;
-  }
-
-  .language-toggle button img {
-    width: 52px;
-  }
-
-  .suggestion > .contact {
-    font-size: 20px;
-  }
-
-  .inner-container > .suggestion {
-    width: 400px;
-  }
-
-  .inner-container > .line-break {
-    width: 400px;
-  }
-
-  .hotel-suggestion-title {
-    font-size: 44px;
-  }
-
-  .personal-contact-info {
-    font-size: 22px;
-  }
-
-  .contact-wrapper > .bridesmaid-bestman {
-    width: 600px;
-  }
-
-  .schedule-pic .schedule-title {
-    font-size: 30px;
-    left: 390px;
-  }
-
-  .schedule-pic p {
-    font-size: 26px;
-  }
-}
-
-@media only screen and (min-device-width: 1000px) {
-  .heart-separator {
-    display: none;
-  }
-}
-
-@media only screen and (max-device-width: 768px) {
-  .title-names {
-    margin-top: 100px;
-    font-size: 70px;
+    .personal-contact-info {
+      font-size: 22px;
+    }
+  
+    .contact-wrapper > .bridesmaid-bestman {
+      width: 600px;
+    }
+  
+    .hover-state:hover > img {
+      opacity: 0.2;
+    }
+  
+    .hover-state:hover > div {
+      background-color: #ffffff12;
+      color: rgb(46, 43, 43);
+    }
+  
+    .hover-state:hover > p {
+      display: block;
+      position: absolute;
+      top: 56px;
+      left: 80px;
+      font-size: 32px;
+      margin-right: 0 50px;
+      color: rgb(46, 43, 43);
+    }
   }
   
-  .couple-pic-container {
-    margin-top: 70px;
-    flex-direction: column;
+  @media only screen and (min-device-width: 1001px) {
+    .hover-state:hover > img {
+      opacity: 0.2;
+    }
+  
+    .hover-state:hover > div {
+      background-color: #ffffff12;
+      color: rgb(46, 43, 43);
+    }
+  
+    .hover-state:hover > p {
+      display: block;
+      position: absolute;
+      top: 56px;
+      left: 80px;
+      font-size: 32px;
+      margin-right: 0 50px;
+      color: rgb(46, 43, 43);
+    }
   }
 
-  .heart {
-    top: -4px;
+  @media only screen and (max-device-width: 768px) {
+    .couple-pic-container {
+      margin-top: 70px;
+      flex-direction: column;
+    }
+  
+    .heart-separator {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 400px 0;
+    }
+  
+    .separator {
+      height: 20px;
+      width: 20px;
+    }
+  
+    .separator:before, .separator:after {
+      height: 20px;
+      width: 20px;
+    }
+  
+    .separator:before {
+      top: -14px;
+    }
+  
+    .separator:after {
+      left: 14px;
+    }
+
+  
+    .location {
+      margin: 0;
+      padding-top: 0px;
+    }
+  
+    .location-blurb {
+      width: 100%;
+      border-top: none;
+      height: 650px;
+      margin-bottom: 3px;
+    }
+  
+    .location-name {
+      font-size: 28px;
+      line-height: 46px;
+      margin-bottom: 16px;
+      margin-left: 0;
+    }
+  
+    .location-section {
+      display: block;
+      text-align: center;
+    }
+  
+    .location-section img {
+      width: 100%;
+      height: 650px;
+    }
+  
+    .location-blurb p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 44px;
+    }
+  
+    .location-blurb span  {
+      font-size: 40px;
+    }
+  
+    .location-blurb .location-name {
+      font-size: 44px;
+      margin-bottom: 30px;
+    }
+  
+    .location-blurb a {
+      font-size: 40px;
+    }
+  
+    .location-blurb a:visited {
+      text-decoration: none;
+      color: rgb(133, 95, 13);
+      border-bottom: 2px solid rgb(133, 95, 13);
+    }
+      
+    .location-blurb a:hover {
+      text-decoration: none;
+      font-style: italic;
+      color: rgb(44, 31, 3);
+    }
+  
+    .courtyard {
+      border-top: 6px double rgb(233, 185, 83);
+      border-left: none;
+      border-right: none;
+    }
+  
+    .bench {
+      border-left: none;
+      border-right: none;
+    }
+  
+    #schedule {
+      padding-top: 0;
+    }
+  
+    #dress-code {
+      padding-top: 0;
+    }
+
+  
+    #hotel-suggestions {
+      padding-top: 0px;
+    }
+  
+    #gifts {
+      padding-top: 0px;
+    }
+
+    .contact-info {
+      width: 100%;
+      align-items: center;
+    }
+
+    .contact-title p {
+      width: 100%;
+      text-align: center;
+      font-size: 48px;
+    }
+  
+    .personal-contact-info p {
+      width: 100%;
+  
+      width: 370px;
+      font-size: 24px;
+    }
+  
+    .personal-contact-info .names {
+      font-size: 32px;
+    }
+  
   }
-
-  .heart-separator {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 400px 0;
-  }
-
-  .separator {
-    height: 20px;
-    width: 20px;
-  }
-
-  .separator:before, .separator:after {
-    height: 20px;
-    width: 20px;
-  }
-
-  .separator:before {
-    top: -14px;
-  }
-
-  .separator:after {
-    left: 14px;
-  }
-
-  .nav-list {
-    display: none;
-    align-content: unset;
-  }  
-
-  .date {
-    margin-top: 48px;
-    margin-bottom: 30px;
-    align-content: unset;
-    font-size: 46px;
-  }
-
-  .sticky {
-    display: none;
-  }
-
-  .location {
-    margin: 0;
-    padding-top: 0px;
-  }
-
-  .location-blurb {
-    width: 100%;
-    border-top: none;
-    height: 650px;
-    margin-bottom: 3px;
-  }
-
-  .location-name {
-    font-size: 28px;
-    line-height: 46px;
-    margin-bottom: 16px;
-    margin-left: 0;
-  }
-
-  .location-section {
-    display: block;
-    text-align: center;
-  }
-
-  .location-section img {
-    width: 100%;
-    height: 650px;
-  }
-
-  .location-blurb p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 44px;
-  }
-
-  .location-blurb span  {
-    font-size: 40px;
-  }
-
-  .location-blurb .location-name {
-    font-size: 44px;
-    margin-bottom: 30px;
-  }
-
-  .location-blurb a {
-    font-size: 40px;
-  }
-
-  .location-blurb a:visited {
-    text-decoration: none;
-    color: rgb(133, 95, 13);
-    border-bottom: 2px solid rgb(133, 95, 13);
-  }
-    
-  .location-blurb a:hover {
-    text-decoration: none;
-    font-style: italic;
-    color: rgb(44, 31, 3);
-  }
-
-  .courtyard {
-    border-top: 6px double rgb(233, 185, 83);
-    border-left: none;
-    border-right: none;
-  }
-
-  .bench {
-    border-left: none;
-    border-right: none;
-  }
-
-  #schedule {
-    padding-top: 0;
-  }
-
-  .schedule-pic .schedule-title {
-    top: 198px;
-    left: 326px;
-    font-size: 38px;
-  }
-
-  .schedule-pic p {
-    top: 269px;
-    line-height: 42px;
-    font-size: 28px;
-    margin-left: 64px;
-    margin-top: 0;
-  }
-
-  #dress-code {
-    padding-top: 0;
-  }
-
-  .dress-code-title {
-    font-size: 66px;
-    padding-bottom: 12px;
-  }
-
-  .dress-code-wrapper:hover > p {
-    top: 15px;
-    left: 194px;
-    font-size: 25px;
-  }
-
-  #hotel-suggestions {
-    padding-top: 0px;
-  }
-
-  .common-section .hotel-container {
-    width: 90%;
-  }
-
-  .hotel-container .inner-container {
-    flex-direction: column;
-  }
-
-  .inner-container .suggestion {
-    width: 100%;
-  }
-
-  .suggestion .hotel {
-    font-size: 46px;
-  }
-
-  .suggestion .contact {
-    font-size: 30px;
-  }
-
-  .suggestion, .suggestion-middle {
-    margin-left: 50px;
-  }
-
-  .hotel-suggestion-title {
-    font-size: 60px;
-  }
-
-  #gifts {
-    padding-top: 0px;
-  }
-
-  #contact-wedding-info {
-    padding-top: 0px;
-  }
-
-  .language-toggle button img {
-    width: 70px;
-    height: 40px;
-  }
-
-  .language-toggle button .english-flag {
-    width: 70px;
-    height: 40px;
-  }
-
-  .language-toggle button {
-    font-size: 32px;
-    right: 55px;
-    top: 18px;
-  }
-
-  .contact-info {
-    width: 100%;
-    align-items: center;
-  }
-
-  .contact-wedding-info .contact-wrapper {
-    width: 100%;
-  }
-
- .contact-wedding-info .contact-wrapper img {
-    height: 700px;
-    margin-right: 0;
-  }
-
-  .contact-wedding-info .contact-wrapper .pic-lilly {
-    height: 300px;
-    margin-right: 60px;
-  }
-
-  .contact-title p {
-    width: 100%;
-    text-align: center;
-    font-size: 48px;
-  }
-
-  .personal-contact-info p {
-    width: 100%;
-
-    width: 370px;
-    font-size: 24px;
-  }
-
-  .personal-contact-info .names {
-    font-size: 32px;
-  }
-
-}
-
-@media only screen and (min-device-width: 768px) {
-  .hover-state:hover > img {
-    opacity: 0.2;
-  }
-
-  .hover-state:hover > div {
-    background-color: #ffffff12;
-    color: rgb(46, 43, 43);
-  }
-
-  .hover-state:hover > p {
-    display: block;
-    position: absolute;
-    top: 56px;
-    left: 80px;
-    font-size: 32px;
-    margin-right: 0 50px;
-    color: rgb(46, 43, 43);
-  }
-}
